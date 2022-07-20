@@ -1,0 +1,68 @@
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+/****** Vertical ******/
+ul#navegacao-vertical a {
+   width: 200px;
+   height: 40px;
+   display: block;
+   color: #000;
+   text-decoration: none;
+   text-indent: 40px;
+   line-height: 40px;
+   background: #f7b600 url('../assets/menu.png') left bottom;
+}
+
+ul#navegacao-vertical a:hover, ul#navegacao-vertical li.selecionado a {
+   background-position: right bottom;
+   background-color: #f99200;
+   color: #fff;
+}
+
+/****** Horizontal ******/
+ul#navegacao-horizontal {
+   list-style: none;
+   width: 720px;
+   background: #159cb0 url('../assets/fundo-horizontal.png') repeat-x;
+   float: left;
+}
+
+ul#navegacao-horizontal li {
+   float: left;
+}
+
+ul#navegacao-horizontal a {
+   display: block;
+   padding: 0 2em;
+   line-height: 2.5em;
+   text-decoration: none;
+   color: #fff;
+   background: url('../assets/divisor.png') repeat-y;
+}
+
+ul#navegacao-horizontal .primeiro a {
+   background: none;
+}
+
+ul#navegacao-horizontal a:hover {
+   color: #085662;
+   background: #44cade;
+}
+
+ul#navegacao-horizontal a:hover, ul#navegacao-horizontal li.selecionado a {
+   color: #085662;
+   background: #44cade;
+}
+
+/****** Navegação com Abas ******/
+ul#navegacao-com-abas {
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;   
+   width: 720px;
+}
+
+ul#navegacao-com-abas li {
+   float: left;
+}
